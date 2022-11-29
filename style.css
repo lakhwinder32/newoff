@@ -1,0 +1,434 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main {
+
+    overflow: hidden;
+
+}
+
+.main1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a1 {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 9999999;
+
+
+
+
+
+
+}
+
+.a2 {
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 99999999;
+    margin-top: 250px;
+
+
+}
+
+.luck {
+    font-size: 100px;
+    color:red;
+    ;
+    font-weight: 900;
+    float: left;
+
+
+}
+
+.luck1 {
+    font-size: 100px;
+    color:red;
+    font-weight: 500;
+    float: left;
+}
+
+.singh {
+    font-size: 70px;
+    font-weight: 700;
+    color: red;
+    float: left;
+}
+
+.responsive {
+    width: 110%;
+    z-index: 999;
+    margin-left: -20px;
+}
+
+#navbarSupportedContent li a {
+    font-family: Century Gothic;
+    margin-left: 20px;
+    color:red;
+   
+
+}
+#navbarSupportedContent li a:hover{
+    border-bottom: 1px solid red;
+}
+
+#navbarSupportedContent li .active {
+    border-bottom: 1px solid red;
+    
+
+}
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+
+
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.About {
+    padding: 40px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+
+
+
+}
+
+.pic {
+
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+
+
+}
+
+.pic:nth-child(2) {
+
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    line-height: 40px;
+    font-weight: 200;
+    border: none;
+    margin: auto;
+    margin-top: 80px !important;
+}
+
+.round {
+    height: 200px;
+    border-radius: 100%;
+    z-index: 9999;
+}
+
+section {
+    background-color: black;
+}
+
+.about {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    ;
+    z-index: 1;
+}
+
+.services {
+
+    margin: auto;
+
+}
+
+
+
+
+
+
+.content {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 8vw;
+    position: absolute;
+    letter-spacing: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.content h2:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #fc2808;
+}
+
+.content h2:nth-child(2) {
+    color: #f41b03;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%,
+                16% 44%,
+                33% 50%,
+                54% 60%,
+                70% 61%,
+                84% 59%,
+                100% 52%,
+                100% 100%,
+                0% 100%);
+    }
+
+    50% {
+        clip-path: polygon(0% 60%,
+                15% 65%,
+                34% 66%,
+                51% 62%,
+                67% 50%,
+                84% 45%,
+                100% 46%,
+                100% 100%,
+                0% 100%);
+    }
+}
+
+h2 {}
+
+.service-items {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    color: white;
+
+
+
+}
+
+.one {
+    height: 400px;
+    transition: 0.4s;
+    display: flex;
+}
+
+.one:hover {
+    width: 700px;
+}
+
+.two {
+    height: 400px;
+}
+
+
+.progress {
+    height: 40px !important;
+    word-wrap: break-word !important;
+}
+.progress-bar {
+
+    word-wrap: break-word !important;
+}
+
+.frame {
+    margin-top: 100px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: 6vw;
+    letter-spacing: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f41b03;
+    border-top: 2px solid white;
+    ;
+    border-bottom: 2px solid white;
+    ;
+}
+
+.frame1 {
+    height: 700px;
+}
+
+.footer {
+    height: 100px;
+    
+}
+.contact{
+color:red;
+font-size: 60px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.icons {
+    display: flex;
+    justify-content: center;
+  }
+.icons i {
+    font-size: 20px;
+   color:#f41b03;
+   padding:20px;
+   margin:10px;
+   border-bottom:4px solid  #f41b03;
+   border-radius: 50%;
+   transition: 0.4s;
+  }
+  .icons i:hover {
+    transform: translatey(-10px);
+    color:white;
+    border-bottom:4px solid  white;
+  }
+  .last{
+    height:200px;
+    
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:50px !important;
+  }
+  .last1
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300px;
+    transform: rotate(10deg);
+  }
+  ::-webkit-media-controls {
+    display:none !important;
+  }
+  .whatsapp{
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    
+    right: 20px;
+    height:50px;
+    width:50px;
+    background-color: #2b2a2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: auto !important;
+    z-index: 99999999;
+    transition: 0.5s;
+    color:white;
+  
+    }
+  .whatsapp a{
+    color:red;
+    background-color: #2b2a2a;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  .whatsapp a:hover{
+    color:white;
+    background-color: #2b2a2a;
+    border-radius: 50%;
+  }
+  .whatsapp:hover{
+
+  
+  
+    transform: translatex(-10px)scale(1.2);
+  }
+  .cursor {
+    position: fixed;
+    border:2px solid red;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%)scale(1.4);
+    pointer-events: none;
+    
+    left: -100px;
+    top: 50%;
+   
+    
+    z-index: 9999999999;
+   
+   height: 100px;
+   width: 100px;
+    transition: all 300ms ease-out;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 786px) {
+    .a2 {
+        margin-top: 100px;
+    }
+
+    .pic:nth-child(2) {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .about {
+        margin-top: -80px;
+    }
+
+    #demo {
+        margin-top: -70px;
+    }
+
+    .one:hover {
+        width: auto;
+    }
+    .icons i {
+        font-size: 20px;
+        padding:20px;
+      
+      }
+
+
+}
+
+@media screen and (min-width: 786px) and (max-width: 1200px) {
+    .a2 {
+        margin-top: 100px;
+    }
+
+    .pic:nth-child(2) {
+        font-size: 20px;
+
+    }
+
+}
